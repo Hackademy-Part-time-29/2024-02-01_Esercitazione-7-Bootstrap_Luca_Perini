@@ -10,15 +10,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="bg-secondary bg-opacity-25">
     <header>
         <!-- NAVBAR e HEADER -->
         <nav class="navbar pb-5 navbar-expand-lg bg-primary">
             <div class="container-fluid">
                 <a class="navbar-brand text-light " href="#">The Movie Enjoyer</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="true" aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,7 +48,8 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search something here..." aria-label="Search">
+                        <input class="form-control me-2" type="search" placeholder="Search something here..."
+                            aria-label="Search">
                         <button class="btn bg-light text-primary" type="submit"><svg xmlns="http://www.w3.org/2000/svg"
                                 width="25" height="25" fill="currentColor" class="bi bi-binoculars" viewBox="0 0 16 16">
                                 <path
@@ -59,23 +60,53 @@
             </div>
         </nav>
 
-            <div class="row ">
-                <div class="col-12">
-                    <div class="position-relative">
-                        <img class="img-fluid md w-100 " src="/images/92b4bb_1e10fdd543be4307b6ca70961ccaddf9~mv2.jpg" alt="">
-                        <div class="position-absolute top-0 start-0 d-flex flex-column justify-content-center p-3 h-100 w-100 bg-black bg-opacity-50">
-                            <h1 class="text-light display-1 pb-5" >Looking for a Movie?</h1>
-                            <p class="text-light display-5">Maybe we have something you may like.</p>
-                        </div>
-                        
-                        
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="position-relative">
+                    <img class="img-fluid md w-100 " src="/images/92b4bb_1e10fdd543be4307b6ca70961ccaddf9~mv2.jpg"
+                        alt="">
+                    <div
+                        class="position-absolute top-0 start-0 d-flex flex-column justify-content-center p-3 h-100 w-100 bg-black bg-opacity-50">
+                        <h1 class="text-light display-1 pb-5">Looking for a Movie?</h1>
+                        <p class="text-light display-5">Maybe we have something you may like.</p>
                     </div>
-                    <p class="fst-italic fs-6">Metropolis, 1927, Fritz Lang (picture above)</p>
+
+
                 </div>
+                <p class="fst-italic fs-6">Metropolis, 1927, Fritz Lang (picture above)</p>
             </div>
+        </div>
 
     </header>
 
+<!-- MAIN -->
+
+    <main>
+        <div class="container ">
+            <div class="row d-flex">
+                <div class="col-12 d-flex justify-content-center col-md-6">
+                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                        <img src="/images/6217b7155c6a7d5b2e70d4bc.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5">Midsommar: the disturbing Ari Aster Movie</p>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae
+                                accusantium ad quidem fugit dignissimos ducimus....<a href="">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center col-md-6">
+                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                        <img src="/images/Kubrick_composite_700x384.jpg.crdownload" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-5">Stanley Kubrick: top 5 movies</p>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae
+                                accusantium ad quidem fugit dignissimos ducimus....<a href="">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
